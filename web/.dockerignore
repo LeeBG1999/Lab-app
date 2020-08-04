@@ -1,0 +1,9 @@
+node_modules
+.env
+temlates
+cert
+.vscode
+.prettirerrc.js
+.yarnclean
+apollo.config.js
+codegen.yml

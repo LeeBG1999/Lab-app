@@ -1,0 +1,11 @@
+query NominalRoles {
+    nominalRoles {
+        __typename
+        ...fail
+        ... on NominalRoleResults {
+            results {
+                ...NominalRoleListItem
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+query DeviceLabels {
+    deviceLabels {
+        __typename
+        ... on DeviceLabelResults {
+            results {
+                ...DeviceLabelListItem
+            }
+        }
+        ...FailResponse
+    }
+}

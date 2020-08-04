@@ -1,0 +1,6 @@
+fragment DeviceLabelListItem on DeviceLabel {
+    id
+    name
+    color
+    description
+}

@@ -1,0 +1,7 @@
+query NominalRole($id: Int!) {
+    nominalRole(id: $id) {
+        __typename
+        ...FailResponse
+        ...NominalRoleListItem
+    }
+}

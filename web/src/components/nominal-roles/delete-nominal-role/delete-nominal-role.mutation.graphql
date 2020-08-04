@@ -1,0 +1,7 @@
+mutation DeleteNominalRole($id: Int!) {
+    deleteNominalRole(id: $id) {
+        __typename
+        ...FailResponse
+        ...DeleteResult
+    }
+}

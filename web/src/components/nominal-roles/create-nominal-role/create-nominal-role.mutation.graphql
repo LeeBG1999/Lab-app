@@ -1,0 +1,7 @@
+mutation CreateNominalRole($input: NominalRoleCreateInput!) {
+    createNominalRole(input: $input) {
+        __typename
+        ...FailResponse
+        ...NominalRoleListItem
+    }
+}

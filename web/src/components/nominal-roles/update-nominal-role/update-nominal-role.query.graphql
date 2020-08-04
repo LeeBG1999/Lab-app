@@ -1,0 +1,7 @@
+mutation UpdateNominalRole($id: Int!, $input: NominalRoleUpdateInput!) {
+    updateNominalRole(id: $id, input: $input) {
+        __typename
+        ...FailResponse
+        ...NominalRoleListItem
+    }
+}

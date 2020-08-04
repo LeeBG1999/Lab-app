@@ -1,0 +1,6 @@
+fragment NominalRoleListItem on NominalRole {
+    id
+    name
+    public
+    description
+}

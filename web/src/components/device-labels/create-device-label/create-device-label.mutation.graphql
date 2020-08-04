@@ -1,0 +1,7 @@
+mutation CreateDeviceLabel($input: DeviceLabelCreateInput!) {
+    createDeviceLabel(input: $input) {
+        __typename
+        ...FailResponse
+        ...DeviceLabelListItem
+    }
+}

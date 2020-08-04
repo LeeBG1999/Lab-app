@@ -1,0 +1,8 @@
+fragment FailResponse on Fail {
+    reason
+    message
+}
+
+fragment DeleteResult on DeleteResult {
+    id
+}
